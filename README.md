@@ -23,18 +23,18 @@ A dark theme for VSCode based on purple gradient colors.
 2. Search for `Rainy Hydrangea`
 3. Click **Install**
 4. Open **File > Preferences > Theme > Color Theme**
-5. Choose **Rainy Hydrangea**
+5. Select **Rainy Hydrangea**
 
 ## Development
 
 ### Preparing Environment
 
-1. Install [VOLTA](https://volta.sh/)
+1. Install [Volta](https://volta.sh/)
 2. Run `npm install`
 
 ### Build and Apply Theme
 
-1. Run `npm run build` in terminal
+1. Run `npm run build`
 2. Reload window
 
 ## License
