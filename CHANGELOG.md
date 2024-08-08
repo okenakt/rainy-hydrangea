@@ -1,7 +1,14 @@
 # Change Log
 
+## 0.2.0
+
+`2024-08-08`
+
+- Fix scope color settings
+- Fix statusBar color settings
+
 ## 0.1.0
 
-`2024-08-6`
+`2024-08-06`
 
 - Initial release
