@@ -1,0 +1,56 @@
+{
+  "name": "rainy-hydrangea",
+  "displayName": "Rainy Hydrangea",
+  "description": "A dark theme for VSCode inspired by hydrangeas on a rainy day.",
+  "version": "0.1.0",
+  "publisher": "okenakt",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#252D33",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okenakt/rainy-hydrangea.git"
+  },
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rainy Hydrangea",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rainy-hydrangea-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsx ./src/scripts/build-theme.ts",
+    "package": "vsce package",
+    "publish": "npx vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@vscode/vsce": "^2.31.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "volta": {
+    "node": "20.15.1"
+  },
+  "prettier": {
+    "printWidth": 88,
+    "quoteProps": "consistent",
+    "plugins": [
+      "prettier-plugin-organize-imports"
+    ],
+    "organizeImportsSkipDestructiveCodeActions": true
+  }
+}
