@@ -4,9 +4,14 @@ import { palette } from "../palette";
 export const yellowScopes: ColorConfig = {
   color: palette.yellow,
   targets: [
-    "constant.character.format.placeholder",
-    "constant.other.placeholder",
+    /* Target Scopes
+      - operator
+      - special characters in string
+     */
     "keyword.operator",
-    "storage.type.format",
+    "constant.character.escape",
+
+    // java
+    "keyword.control.new",
   ],
 };

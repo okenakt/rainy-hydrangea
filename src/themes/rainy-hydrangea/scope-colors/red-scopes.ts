@@ -3,5 +3,15 @@ import { palette } from "../palette";
 
 export const redScopes: ColorConfig = {
   color: palette.red,
-  targets: ["constant", "keyword.other.unit"],
+  targets: [
+    /* Target Scopes
+      - constant
+      - invalid syntax
+     */
+    "constant",
+    "invalid",
+
+    // css
+    "keyword.other.unit",
+  ],
 };

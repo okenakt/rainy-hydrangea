@@ -3,5 +3,8 @@ import { palette } from "../palette";
 
 export const cyanScopes: ColorConfig = {
   color: palette.cyan,
-  targets: [],
+  targets: [
+    /* Target Scopes
+     */
+  ],
 };

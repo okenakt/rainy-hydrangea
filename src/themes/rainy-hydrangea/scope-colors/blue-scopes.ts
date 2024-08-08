@@ -4,16 +4,21 @@ import { palette } from "../palette";
 export const blueScopes: ColorConfig = {
   color: palette.blue,
   targets: [
-    "entity.name",
-    "entity.other.inherited-class",
+    /* Target Scopes
+      - class or type name
+      - variables related to class
+     */
+    "entity",
     "keyword.type",
-    "meta.definition",
-    "meta.function.parameters",
-    "meta.import",
-    "storage.type.built-in",
-    "storage.type.object",
-    "storage.type.primitive",
+    "storage.type",
+    "support.class",
     "support.type",
-    "variable.language",
+    "variable.language", // this, self, ...
+
+    // java
+    "storage.type.primitive", // void, int, ...
+
+    // py
+    "variable.parameter.function.language.special", // cls, self in function parameter
   ],
 };

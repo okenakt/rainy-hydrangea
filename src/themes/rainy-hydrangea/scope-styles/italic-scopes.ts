@@ -2,5 +2,11 @@ import { StyleConfig } from "@/types";
 
 export const italicScopes: StyleConfig = {
   style: "italic",
-  targets: ["comment", "punctuation.definition.comment"],
+  targets: [
+    /* Target Scopes 
+      - comment
+     */
+    "comment",
+    "punctuation.definition.comment",
+  ],
 };

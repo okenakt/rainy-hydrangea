@@ -4,11 +4,33 @@ import { palette } from "../palette";
 export const pinkScopes: ColorConfig = {
   color: palette.pink,
   targets: [
-    "keyword.control",
-    "keyword.operator.new",
-    "keyword.other",
-    "meta.function",
-    "storage.modifier",
-    "storage.type",
+    /* Target Scopes
+      - language keyword
+     */
+    "storage",
+    "keyword",
+    "storage.type.function",
+
+    // cpp
+    "storage.type.namespace",
+
+    // groovy
+    "storage.type.def",
+
+    // js, jsx, ts, tsx
+    "meta.var.expr storage.type", // var, const
+
+    // php
+    "storage.type.interface",
+
+    // py
+    "storage.type.class",
+
+    // r
+    "entity.namespace",
+
+    // rs
+    "entity.name.namespace",
+    "keyword.other storage.type", // let
   ],
 };

@@ -3,5 +3,18 @@ import { palette } from "../palette";
 
 export const greenScopes: ColorConfig = {
   color: palette.green,
-  targets: ["constant.character.escape", "entity.name.import", "puctuation", "string"],
+  targets: [
+    /* Target Scopes
+      - string
+     */
+    "entity.name.import", // puctuated import
+    "puctuation",
+    "string",
+
+    // kotlin
+    "entity.string",
+
+    // py
+    "storage.type.string", // fstring
+  ],
 };

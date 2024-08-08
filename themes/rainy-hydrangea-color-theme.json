@@ -90,12 +90,12 @@
     {
       "name": "#CCCAC8",
       "scope": [
-        "meta.function-call.arguments",
         "punctuation.accessor",
         "punctuation.separator",
-        "variable.object",
         "variable.other",
-        "variable.parameter.function-call"
+        "meta.arguments",
+        "meta.block meta.object variable.other.readwrite",
+        "meta.function-call.arguments"
       ],
       "settings": {
         "foreground": "#CCCAC8"
@@ -115,17 +115,14 @@
     {
       "name": "#7CB2D6",
       "scope": [
-        "entity.name",
-        "entity.other.inherited-class",
+        "entity",
         "keyword.type",
-        "meta.definition",
-        "meta.function.parameters",
-        "meta.import",
-        "storage.type.built-in",
-        "storage.type.object",
-        "storage.type.primitive",
+        "storage.type",
+        "support.class",
         "support.type",
-        "variable.language"
+        "variable.language",
+        "storage.type.primitive",
+        "variable.parameter.function.language.special"
       ],
       "settings": {
         "foreground": "#7CB2D6"
@@ -134,16 +131,30 @@
     {
       "name": "#9098F0",
       "scope": [
-        "constant.other.caps",
-        "entity.name.variable.property",
         "entity.other.attribute-name",
         "meta.attribute",
-        "meta.object-literal.key",
-        "support.type.property-name",
-        "variable.object.property",
+        "meta.member",
+        "variable.parameter",
         "variable.other.member",
+        "entity.name.variable.field",
+        "entity.name.variable.property",
+        "meta.definition.variable",
+        "meta.property-list entity.name",
+        "meta.property-list",
+        "punctuation.definition.variable",
+        "support.other.variable",
+        "support.type.property-name",
+        "keyword.other.definition",
+        "constant.other.key",
+        "variable.other.object.property",
+        "constant.other.enum",
+        "variable.object.property",
         "variable.other.property",
-        "variable.parameter"
+        "meta.object.member variable.other.readwrite",
+        "meta.object-literal.key",
+        "meta.scope.prerequisites",
+        "constant.other.perl",
+        "constant.other.caps"
       ],
       "settings": {
         "foreground": "#9098F0"
@@ -152,11 +163,16 @@
     {
       "name": "#B187E0",
       "scope": [
-        "entity.name.function",
         "meta.function-call",
+        "entity.name.function",
+        "support.function",
         "meta.function.decorator support.type.python",
         "storage.type.accessor",
-        "support.function"
+        "storage.type.annotation",
+        "entity.name.command",
+        "punctuation.definition.annotation",
+        "meta.method-call",
+        "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#B187E0"
@@ -165,12 +181,17 @@
     {
       "name": "#D67CD5",
       "scope": [
-        "keyword.control",
-        "keyword.operator.new",
-        "keyword.other",
-        "meta.function",
-        "storage.modifier",
-        "storage.type"
+        "storage",
+        "keyword",
+        "storage.type.function",
+        "storage.type.namespace",
+        "storage.type.def",
+        "meta.var.expr storage.type",
+        "storage.type.interface",
+        "storage.type.class",
+        "entity.namespace",
+        "entity.name.namespace",
+        "keyword.other storage.type"
       ],
       "settings": {
         "foreground": "#D67CD5"
@@ -180,6 +201,7 @@
       "name": "#DB7676",
       "scope": [
         "constant",
+        "invalid",
         "keyword.other.unit"
       ],
       "settings": {
@@ -189,10 +211,9 @@
     {
       "name": "#E6B26A",
       "scope": [
-        "constant.character.format.placeholder",
-        "constant.other.placeholder",
         "keyword.operator",
-        "storage.type.format"
+        "constant.character.escape",
+        "keyword.control.new"
       ],
       "settings": {
         "foreground": "#E6B26A"
@@ -201,10 +222,11 @@
     {
       "name": "#81AD6C",
       "scope": [
-        "constant.character.escape",
         "entity.name.import",
         "puctuation",
-        "string"
+        "string",
+        "entity.string",
+        "storage.type.string"
       ],
       "settings": {
         "foreground": "#81AD6C"
@@ -213,11 +235,11 @@
     {
       "name": "bold",
       "scope": [
-        "entity.name.function.python",
-        "entity.name.function.ruby",
         "entity.name.type",
         "meta.definition entity.name.function",
-        "meta.function.definition entity.name.function"
+        "meta.function.definition entity.name.function",
+        "entity.name.function.python",
+        "entity.name.function.ruby"
       ],
       "settings": {
         "fontStyle": "bold"

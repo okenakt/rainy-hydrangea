@@ -3,5 +3,11 @@ import { palette } from "../palette";
 
 export const grayScopes: ColorConfig = {
   color: palette.gray,
-  targets: ["comment", "punctuation.definition.comment"],
+  targets: [
+    /* Target Scopes 
+      - comment
+     */
+    "comment",
+    "punctuation.definition.comment",
+  ],
 };
