@@ -11,6 +11,7 @@ export const redIds: ColorConfig = {
     "gitDecoration.stageDeletedResourceForeground",
     "list.errorForeground",
     "minimap.errorHighlight",
+    "statusBar.debuggingBackground",
     "terminal.ansiBrightRed",
     "terminal.ansiRed",
   ],
