@@ -19,6 +19,8 @@ export const pinkScopes: ColorConfig = {
 
     // js, jsx, ts, tsx
     "meta.var.expr storage.type", // var, const
+    "storage.type.enum",
+    "storage.type.type",
 
     // php
     "storage.type.interface",

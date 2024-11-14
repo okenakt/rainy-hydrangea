@@ -40,10 +40,11 @@ export const indigoScopes: ColorConfig = {
     "constant.other.enum",
 
     // js, jsx, ts, tsx
-    "variable.object.property",
-    "variable.other.property",
-    "meta.object.member variable.other.readwrite", // propety with new line
+    "meta.definition.property entity.name.function.tsx", // function property
     "meta.object-literal.key",
+    "meta.object.member variable.other.readwrite", // property with new line
+    "meta.object.type variable.object.property",
+    "variable.other.property",
 
     // mk
     "meta.scope.prerequisites",

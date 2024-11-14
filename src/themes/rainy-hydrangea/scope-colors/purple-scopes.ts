@@ -7,8 +7,8 @@ export const purpleScopes: ColorConfig = {
     /* Target Scopes
       - function name and call
      */
-    "meta.function-call",
     "entity.name.function",
+    "meta.function-call",
     "support.function",
 
     // py
@@ -23,11 +23,14 @@ export const purpleScopes: ColorConfig = {
     // bash
     "entity.name.command",
 
+    // groovy
+    "meta.method-call",
+
     // java
     "punctuation.definition.annotation",
 
-    // groovy
-    "meta.method-call",
+    // js, jsx, ts, tsx
+    "variable.object.property",
 
     // rb
     "keyword.other.special-method",

@@ -8,7 +8,8 @@ export const boldScopes: StyleConfig = {
       - function definition
      */
     "entity.name.type",
-    "meta.definition entity.name.function",
+    "meta.definition.function entity.name.function",
+    "meta.definition.variable entity.name.function",
     "meta.function.definition entity.name.function",
 
     // py

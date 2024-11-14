@@ -8,8 +8,8 @@ export const yellowScopes: ColorConfig = {
       - operator
       - special characters in string
      */
-    "keyword.operator",
     "constant.character.escape",
+    "keyword.operator",
 
     // java
     "keyword.control.new",
