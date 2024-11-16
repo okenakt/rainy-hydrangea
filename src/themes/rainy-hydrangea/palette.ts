@@ -1,19 +1,19 @@
 import { ColorPalette } from "@/types";
 
 export const palette: ColorPalette = {
-  darkest: "#1A2329",
-  darker: "#1F282E",
-  dark: "#252D33",
-  gray: "#7E888F",
-  lightGray: "#CCCAC8",
-  cyan: "#6FC7BB",
-  blue: "#7CB2D6",
-  indigo: "#9098F0",
-  purple: "#B187E0",
-  pink: "#D67CD5",
-  red: "#DB7676",
-  yellow: "#E6B26A",
-  green: "#81AD6C",
+  darkest: "#171D24",
+  darker: "#1C2229",
+  dark: "#21272E",
+  gray: "#6C737A",
+  lightGray: "#C3C5C7",
+  cyan: "#81D6D3",
+  blue: "#8BB6E0",
+  indigo: "#9C99F0",
+  purple: "#BB8BE0",
+  pink: "#D681C4",
+  red: "#DB817B",
+  yellow: "#E6BD77",
+  green: "#7EAD72",
 };
 
 export const alpha: string = "88";
