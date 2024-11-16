@@ -1,5 +1,12 @@
 # Change Log
 
+## 0.3.0
+
+`2024-11-16`
+
+- Adjust color palette
+- Fix scope color settings
+
 ## 0.2.0
 
 `2024-08-08`
