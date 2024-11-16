@@ -14,7 +14,7 @@ export const greenScopes: ColorConfig = {
     // kotlin
     "entity.string",
 
-    // py
+    // python
     "storage.type.string", // fstring
   ],
 };

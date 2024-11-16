@@ -7,15 +7,16 @@ export const boldScopes: StyleConfig = {
       - class, type definition
       - function definition
      */
-    "entity.name.type",
-    "meta.definition.function entity.name.function",
-    "meta.definition.variable entity.name.function",
-    "meta.function.definition entity.name.function",
+    "entity.name.class",
+    "entity.name.type.class",
+    "entity.name.type.interface",
+    "meta.definition entity.name.function",
+    "meta.function entity.name.function",
 
-    // py
+    // makefile
+    "entity.name.function.target.makefile",
+
+    // python
     "entity.name.function.python",
-
-    // rb
-    "entity.name.function.ruby",
   ],
 };

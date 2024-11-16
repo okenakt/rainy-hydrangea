@@ -11,9 +11,6 @@ export const purpleScopes: ColorConfig = {
     "meta.function-call",
     "support.function",
 
-    // py
-    "meta.function.decorator support.type.python", // counter to blue
-
     // cs
     "storage.type.accessor", // get, set
 
@@ -29,10 +26,7 @@ export const purpleScopes: ColorConfig = {
     // java
     "punctuation.definition.annotation",
 
-    // js, jsx, ts, tsx
-    "variable.object.property",
-
-    // rb
-    "keyword.other.special-method",
+    // python
+    "meta.function.decorator support.type.python", // counter to blue
   ],
 };

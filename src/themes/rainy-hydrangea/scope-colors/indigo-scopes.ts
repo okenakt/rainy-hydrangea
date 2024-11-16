@@ -12,6 +12,8 @@ export const indigoScopes: ColorConfig = {
     "entity.other.attribute-name",
     "meta.attribute",
     "meta.member",
+    "variable.object.property",
+    "variable.other.property",
     "variable.parameter",
 
     // c, cpp
@@ -21,7 +23,7 @@ export const indigoScopes: ColorConfig = {
     "entity.name.variable.field",
     "entity.name.variable.property",
 
-    // css, scss, less
+    // css, less
     "meta.definition.variable",
     "meta.property-list entity.name",
     "meta.property-list",
@@ -40,19 +42,18 @@ export const indigoScopes: ColorConfig = {
     "constant.other.enum",
 
     // js, jsx, ts, tsx
-    "meta.definition.property entity.name.function.tsx", // function property
+    "meta.interface meta.definition entity.name.function",
     "meta.object-literal.key",
     "meta.object.member variable.other.readwrite", // property with new line
-    "meta.object.type variable.object.property",
-    "variable.other.property",
+    "meta.type meta.definition entity.name.function",
 
-    // mk
+    // makefile
     "meta.scope.prerequisites",
 
-    // pl
+    // perl
     "constant.other.perl",
 
-    // py
+    // python
     "constant.other.caps",
   ],
 };

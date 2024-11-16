@@ -11,8 +11,8 @@ import { redScopes } from "./red-scopes";
 import { yellowScopes } from "./yellow-scopes";
 
 export const scopeColors: ColorConfig[] = [
-  lightGrayScopes,
   grayScopes,
+  lightGrayScopes,
   cyanScopes,
   blueScopes,
   indigoScopes,

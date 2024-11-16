@@ -15,10 +15,8 @@ export const blueScopes: ColorConfig = {
     "support.type",
     "variable.language", // this, self, ...
 
-    // java
-    "storage.type.primitive", // void, int, ...
-
-    // py
+    // python
     "variable.parameter.function.language.special", // cls, self in function parameter
+    "meta.function.parameters", // function type annotation
   ],
 };

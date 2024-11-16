@@ -22,17 +22,16 @@ export const pinkScopes: ColorConfig = {
     "storage.type.enum",
     "storage.type.type",
 
+    // perl
+    "storage.type.sub",
+
     // php
     "storage.type.interface",
 
-    // py
+    // python
     "storage.type.class",
 
-    // r
-    "entity.namespace",
-
     // rs
-    "entity.name.namespace",
     "keyword.other storage.type", // let
   ],
 };

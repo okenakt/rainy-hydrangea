@@ -15,10 +15,10 @@ export const lightGrayScopes: ColorConfig = {
     // coffee
     "meta.arguments", // counter to purple
 
-    // ts, tsx
-    "meta.block meta.object variable.other.readwrite", // counter to indigo
+    // js, jsx, ts, tsx
+    "meta.array.literal variable.other.readwrite", // counter to indigo
 
-    // py
+    // python
     "meta.function-call.arguments", // counter to purple
   ],
 };
